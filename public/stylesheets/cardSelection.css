@@ -1,0 +1,14 @@
+.cardSelection {
+    width: 450px;
+    height: 300px;
+    float: left;
+}
+.cardInfo {
+    width:200px;
+    float: left;
+}
+
+.cardSelection > img {
+   width: 150px;
+}
+

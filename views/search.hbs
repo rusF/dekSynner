@@ -1,0 +1,8 @@
+<div>
+    <label for="search_box">Search</label>
+    <input id="search_box"/>
+    <button onclick="searcher.magicIOSearch($('#search_box').val())">Submit</button>
+    <form id="cardSelect" action="/search/edhrec" method="post"><button id="submitCards" hidden="hidden">Submit</button></form>
+</div>
+<script src="javascripts/templateController.js"></script>
+<script src="/javascripts/searcher.js"></script>
